@@ -1,0 +1,42 @@
+.button {
+	border-radius: 4px;
+	transition: all cubic-bezier(0.4, 0, 0.2, 1) 300ms;
+}
+
+.button.sm {
+	padding-left: 8px;
+	padding-right: 8px;
+
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.button.md {
+	padding-left: 14px;
+	padding-right: 14px;
+
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.button.default {
+	border: 1px solid rgb(51 65 85);
+	border-radius: 4px;
+	color: rgb(51 65 85);
+}
+
+.button.default:hover {
+	color: white;
+	background-color: rgb(71 85 105);
+}
+
+.button.green {
+	border: 1px solid rgb(22 163 74);
+	border-radius: 4px;
+	color: rgb(22 163 74);
+}
+
+.button.green:hover {
+	color: white;
+	background-color: rgb(21 128 61);
+}
